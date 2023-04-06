@@ -39,7 +39,7 @@ export const MovieDetail = () => {
       console.log(json);
     };
     fetchMovie();
-  }, []);
+  }, [paramaters.id]);
   useEffect(() => {
     document.title = `${title}`;
   });
