@@ -1,12 +1,6 @@
 import { useEffect, useState } from "react";
 import logo from "../assets/logo.png";
-import {
-  Link,
-  NavLink,
-  Navigate,
-  useActionData,
-  useNavigate,
-} from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 export const Header = () => {
   const navigate = useNavigate();
   const [hidden, setHidden] = useState(true);

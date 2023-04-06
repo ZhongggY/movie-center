@@ -1,4 +1,4 @@
-import { Link, Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import backup from "../assets/backup.jpg";
 export const Card = ({ movie }) => {
   const { id, original_title, overview, poster_path } = movie;

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 export const useFetch = (apiPath, query = "") => {
   const [data, setData] = useState([]);
